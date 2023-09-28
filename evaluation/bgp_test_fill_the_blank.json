@@ -1,0 +1,142 @@
+[
+    {
+        "question": "BGP (Border Gateway Protocol) is a standardized exterior gateway protocol used to exchange routing and reachability information between ________ on the Internet. It enables the selection of paths and routes for data to flow efficiently between networks.",
+        "answer": "Autonomous Systems (ASes)"
+    },
+    {
+        "question": "In BGP, the AS-Path attribute represents the ________ that a route has traversed.",
+        "answer": "Autonomous System Path"
+    },
+    {
+        "question": "BGP routers exchange routing information using ________ messages, which contain information about reachable destinations.",
+        "answer": "Update"
+    },
+    {
+        "question": "BGP route ________ is the process of combining multiple smaller IP prefixes into a single aggregated prefix.",
+        "answer": "Aggregation"
+    },
+    {
+        "question": "BGP hijacking refers to the malicious act of diverting traffic from its intended path to an attacker-controlled ________.",
+        "answer": "Network"
+    },
+    {
+        "question": "To reduce the number of BGP peers required for full mesh connectivity, BGP route ________ can be implemented to consolidate updates.",
+        "answer": "Reflectors"
+    },
+    {
+        "question": "BGP monitoring tools can help identify unusual ________ in BGP updates, indicating potential hijacking or misconfigurations.",
+        "answer": "Changes"
+    },
+    {
+        "question": "The attribute in BGP that allows routers to group routes into categories for applying specific policies is ________.",
+        "answer": "Community"
+    },
+    {
+        "question": "The BGP message used to establish a connection between BGP routers and exchange routing information is ________.",
+        "answer": "Open"
+    },
+    {
+        "question": "The process of selecting the best route from multiple available routes based on various attributes in BGP is ________  .",
+        "answer": "Path Selection"
+    },
+    {
+        "question": "The BGP attribute that influences the route selection process and can be used to prefer certain paths over others is ________.",
+        "answer": "Local Preference"
+    },
+    {
+        "question": "The attribute in BGP that indicates the preference of exit point for a route, often used in traffic engineering, is ________.",
+        "answer": "MED (Multi-Exit Discriminator)"
+    },
+    {
+        "question": "BGP route ________ allows an AS to advertise a route to a neighboring AS, causing traffic to be routed through that AS.",
+        "answer": "Advertising"
+    },
+    {
+        "question": "In, BGP, networks use ________ to exchange their reachability information and establish optimal routes for traffic flow.",
+        "answer": "Peering"
+    },
+    {
+        "question": "The phenomenon where the MED value of a route frequently changes, leading to instability, refers to BGP route ________ .",
+        "answer": "Oscillation"
+    },
+    {
+        "question": "Route ________ in BGP involves detecting invalid or unauthorized BGP updates and filtering them to prevent their propagation.",
+        "answer": "Filtering"
+    },
+    {
+        "question": "BGP routers establish a ________ connection with their peers to exchange routing information.",
+        "answer": "TCP (Transmission Control Protocol)"
+    },
+    {
+        "question": "In BGP, the ________ attribute is used to indicate the next hop IP address for a route.",
+        "answer": "Next Hop"
+    },
+    {
+        "question": "The advertisement of a more specific IP prefix to override a less specific prefix in BGP route involves ________.",
+        "answer": "Suppression"
+    },
+    {
+        "question": "A type of BGP message used to establish a BGP session between routers and exchange information is ________.",
+        "answer": "OPEN"
+    },
+    {
+        "question": "The process of optimizing the selection of routes based on factors like AS path length and local preference in BGP is ________.",
+        "answer": "Path Selection"
+    },
+    {
+        "question": "The BGP message, used to confirm the establishment of a BGP session and synchronize routing information, plays a crucial role in maintaining the stability of network connections is ________ .",
+        "answer": "Keepalive"
+    },
+    {
+        "question": "A widely used technique, safeguards network integrity by selectively controlling the dissemination of specific routes across the network, thus ensuring controlled routing is BGP ________.",
+        "answer": "Filtering"
+    },
+    {
+        "question": "An alarming security concern that involves unauthorized entities advertising IP prefixes they do not own, causing network traffic to be redirected to potentially malicious destinations is BGP ________.",
+        "answer": "Hijacking"
+    },
+    {
+        "question": "A strategic practice within network administration, optimizes routing efficiency by merging several smaller IP prefixes into a singular, more streamlined aggregated prefix is BGP route ________.",
+        "answer": "Aggregation"
+    },
+    {
+        "question": "A process whereby a more specific IP prefix is deliberately advertised to take precedence over a broader one, thus influencing the route selection process is BGP route ________.",
+        "answer": "Suppression"
+    },
+    {
+        "question": "An attribute in BGP path that indicates the sequence of autonomous systems (ASes) that a route has traversed is ________.",
+        "answer": "AS-Path"
+    },
+    {
+        "question": "BGP attribute employed to express the network's preferred exit point for a given route and often leveraged for efficient traffic engineering is ________",
+        "answer": "MED (Multi-Exit Discriminator)"
+    },
+    {
+        "question": "Tools designed to enhance network oversight, empower network administrators to promptly detect and respond to anomalies, potential hijacking attempts, and misconfigurations in routing called BGP route ________ tools.",
+        "answer": "Monitoring"
+    },
+    {
+        "question": "BGP ________ refers to the process of configuring routers to prevent the propagation of specific routes.",
+        "answer": "Filtering"
+    },
+    {
+        "question": "BGP ________ message is used for confirming BGP session establishment and synchronization.",
+        "answer": "Keepalive"
+    },
+    {
+        "question": "BGP ________ helps reduce the need for full mesh connectivity by allowing a router to reflect routes to multiple peers.",
+        "answer": "Route Reflector"
+    },
+    {
+        "question": "BGP route ________ involves manipulating the BGP attributes to control the selection of routes.",
+        "answer": "Manipulation"
+    },
+    {
+        "question": "BGP ________ is used for establishing BGP session connections and exchanging routing information.",
+        "answer": "OPEN"
+    },
+    {
+        "question": "The phenomenon where the Multi-Exit Discriminator (MED) value of a route frequently changes is refered as ________.",
+        "answer": "MED Oscillation"
+    }
+]

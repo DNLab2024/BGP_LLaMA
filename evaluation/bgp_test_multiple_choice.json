@@ -1,0 +1,352 @@
+[
+    {
+        "question": "When analyzing BGP route propagation, which attribute provides information about the path that the BGP update has traversed?",
+        "options": [
+            "a) AS-Path",
+            "b) MED (Multi-Exit Discriminator)",
+            "c) Local Preference",
+            "d) Next Hop"
+        ],
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following is a primary purpose of BGP?",
+        "options": [
+            "a) Establishing communication between devices within a LAN",
+            "b) Exchanging routing information between autonomous systems",
+            "c) Optimizing local network traffic",
+            "d) Assigning IP addresses to devices"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "Which BGP attribute is used to prevent routing loops?",
+        "options": [
+            "a) AS-PATH",
+            "b) NEXT-HOP",
+            "c) ORIGIN",
+            "d) MED"
+        ],
+        "answer": "a"
+    },
+    {
+        "question": "Which BGP attribute indicates the exit point from an AS?",
+        "options": [
+            "a) ORIGIN",
+            "b) LOCAL-PREF",
+            "c) NEXT-HOP",
+            "d) AS-PATH"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "Which BGP message is used to establish a BGP session?",
+        "options": [
+            "a) KEEPALIVE",
+            "b) OPEN",
+            "c) UPDATE",
+            "d) NOTIFICATION"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "What is the purpose of the BGP NEXT-HOP attribute?",
+        "options": [
+            "a) Specifies the IP address of the sender",
+            "b) Indicates the preferred exit point from an AS",
+            "c) Defines the next router in the path",
+            "d) Specifies the route's origin"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "Which BGP message is used to advertise new or withdrawn routes?",
+        "options": [
+            "a) KEEPALIVE",
+            "b) OPEN",
+            "c) UPDATE",
+            "d) NOTIFICATION"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "What is the purpose of BGP route aggregation?",
+        "options": [
+            "a) Breaking down large routes into smaller subnets",
+            "b) Combining multiple routes into a single summarized route",
+            "c) Assigning priority to specific routes",
+            "d) Applying policies to routes"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "Route hijacking in BGP occurs when:",
+        "options": [
+            "a) A router becomes congested",
+            "b) A malicious AS advertises IP prefixes it doesn't own",
+            "c) BGP messages are not propagated correctly",
+            "d) The BGP session is terminated"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "What is the primary goal of BGP monitoring and analysis tools?",
+        "options": [
+            "a) Assigning IP addresses to devices",
+            "b) Optimizing local network traffic",
+            "c) Detecting and preventing route leaks and hijacks",
+            "d) Analyzing application performance"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "Which BGP attribute is used to group routes into categories?",
+        "options": [
+            "a) LOCAL-PREF",
+            "b) MED",
+            "c) AS-PATH",
+            "d) COMMUNITY"
+        ],
+        "answer": "d"
+    },
+    {
+        "question": "BGP confederations are used to:",
+        "options": [
+            "a) Optimize local network traffic",
+            "b) Divide an AS into sub-ASes for scalability",
+            "c) Group routes into categories",
+            "d) Handle BGP session establishment"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "What is the purpose of the BGP MED attribute?",
+        "options": [
+            "a) Indicate the exit point from an AS",
+            "b) Prevent routing loops",
+            "c) Compare routes from different ASes",
+            "d) Group routes into categories"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "Which BGP path attribute indicates the preferred exit point from an AS?",
+        "options": [
+            "a) NEXT-HOP",
+            "b) ORIGIN",
+            "c) LOCAL-PREF",
+            "d) AS-PATH"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "BGP routers use which transport protocol for communication?",
+        "options": [
+            "a) UDP",
+            "b) TCP",
+            "c) ICMP",
+            "d) HTTP"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "BGP route dampening is used to:",
+        "options": [
+            "a) Prevent BGP session establishment",
+            "b) Optimize local network traffic",
+            "c) Reduce the impact of route flapping",
+            "d) Handle BGP updates"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "Which BGP message is used to ensure that the BGP session remains active?",
+        "options": [
+            "a) KEEPALIVE",
+            "b) UPDATE",
+            "c) NOTIFICATION",
+            "d) OPEN"
+        ],
+        "answer": "a"
+    },
+    {
+        "question": "BGP routers use the AS-PATH attribute to:",
+        "options": [
+            "a) Identify the origin of a route",
+            "b) Prevent route hijacking",
+            "c) Determine the preferred exit point",
+            "d) Identify the autonomous systems traversed"
+        ],
+        "answer": "d"
+    },
+    {
+        "question": "Which BGP attribute indicates the origin of a route?",
+        "options": [
+            "a) NEXT-HOP",
+            "b) AS-PATH",
+            "c) ORIGIN",
+            "d) MED"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "BGP routers prioritize routes with:",
+        "options": [
+            "a) Longer AS-PATH lengths",
+            "b) Shorter AS-PATH lengths",
+            "c) Higher NEXT-HOP values",
+            "d) Lower MED values"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "BGP route dampening can cause routes to be:",
+        "options": [
+            "a) Summarized",
+            "b) Withdrawn",
+            "c) Temporarily suppressed",
+            "d) Propagated to all BGP peers"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "Which attribute is used to compare routes from different ASes in BGP?",
+        "options": [
+            "a) NEXT-HOP",
+            "b) ORIGIN",
+            "c) MED",
+            "d) LOCAL-PREF"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "BGP communities are used for:",
+        "options": [
+            "a) Assigning IP addresses",
+            "b) Route aggregation",
+            "c) Grouping routes into categories",
+            "d) Preventing routing loops"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "The BGP LOCAL-PREF attribute indicates:",
+        "options": [
+            "a) The IP address of the next hop",
+            "b) The exit point from an AS",
+            "c) The preferred route to a destination",
+            "d) The ASes traversed by a route"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "BGP routers use which value to prevent routing loops?",
+        "options": [
+            "a) MED",
+            "b) TTL (Time-to-Live)",
+            "c) NEXT-HOP",
+            "d) AS-PATH"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "BGP is commonly used for routing between:",
+        "options": [
+            "a) Routers within a LAN",
+            "b) Devices within a single AS",
+            "c) Autonomous systems (ASes)",
+            "d) Devices on the same subnet"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "BGP route reflectors help alleviate the need for:",
+        "options": [
+            "a) AS-PATH attributes",
+            "b) BGP route aggregation",
+            "c) Full mesh BGP peerings",
+            "d) BGP monitoring tools"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "The BGP MED attribute is used to:",
+        "options": [
+            "a) Influence the preferred exit point",
+            "b) Prevent routing loops",
+            "c) Determine the origin of a route",
+            "d) Summarize routes"
+        ],
+        "answer": "a"
+    },
+    {
+        "question": "The primary purpose of BGP route aggregation is to:",
+        "options": [
+            "a) Reduce the number of BGP peers",
+            "b) Combine routes into a single summarized route",
+            "c) Assign different NEXT-HOP values",
+            "d) Determine the preferred exit point"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "BGP route dampening is designed to mitigate the impact of:",
+        "options": [
+            "a) Route aggregation",
+            "b) IP address conflicts",
+            "c) Route flapping",
+            "d) AS-PATH inconsistencies"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "BGP monitoring and analysis tools are used to detect and prevent:",
+        "options": [
+            "a) Route dampening",
+            "b) Local network congestion",
+            "c) BGP session establishment",
+            "d) Route leaks and hijacks"
+        ],
+        "answer": "d"
+    },
+    {
+        "question": "BGP routers use which transport protocol for communication?",
+        "options": [
+            "a) UDP",
+            "b) TCP",
+            "c) ICMP",
+            "d) HTTP"
+        ],
+        "answer": "b"
+    },
+    {
+        "question": "BGP communities are used to:",
+        "options": [
+            "a) Assign IP addresses",
+            "b) Optimize local network traffic",
+            "c) Group routes into categories",
+            "d) Determine the preferred exit point"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "Which attribute is used to indicate the exit point from an AS in BGP?",
+        "options": [
+            "a) MED",
+            "b) ORIGIN",
+            "c) NEXT-HOP",
+            "d) AS-PATH"
+        ],
+        "answer": "c"
+    },
+    {
+        "question": "BGP route hijacking occurs when:",
+        "options": [
+            "a) A router experiences an outage",
+            "b) A BGP session is established",
+            "c) A malicious AS advertises IP prefixes it doesn't own",
+            "d) BGP messages are not propagated"
+        ],
+        "answer": "c"
+    }
+]
