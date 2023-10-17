@@ -1,15 +1,13 @@
-Design a comprehensive set of tasks to assess the GPT model's understanding of BGP (Border Gateway Protocol) concepts, configuration, attributes, message types, and operational aspects. The tasks should encompass definitions, explanations, practical scenarios, and analysis. Evaluate the GPT model's responses based on the accuracy, depth, and coherence of the BGP-related knowledge it provides in its answers.
+You are asked to generate diverse sets of instructions and outputs of BGP (Border Gateway Protocol) related topics.
 
 Here are the requirements:
-1. Try not to repeat the verb for each instruction to maximize diversity.
-2. The language used for the instruction also should be diverse. For example, you should combine questions with imperative instructions.
-3. The type of instructions should be diverse. The list should include diverse types of tasks like BGP basics definitions and concepts,  BGP configuration, BGP path attributes, types BGP messages and how to handle them, BGP route aggregation, route hijacking, monitoring and analysis, etc.
-4. A GPT language model should be able to complete the instruction.
-5. The instructions should be in English.
-6. Either an imperative sentence or a question is permitted.
-7. You should generate an appropriate instruction. The input field should contain a specific example provided for the instruction. It should involve realistic data and should not contain simple placeholders. The input should provide substantial content to make the instruction challenging but should ideally not exceed 150 words
-8. Not all instructions require input. For example, when a instruction asks about some general information, such as "What is BGP(Border Gateway Protocol)?", it is not necssary to provide a specific context. In this case, we simply put "<noinput>" in the input field.
-9. The output should be an appropriate response to the instruction and the input. Make sure the output is less than 100 words.
+1. The instructions should span across all major areas of BGP knowledge, including but not limited to BGP fundamentals, security and stability, route manipulation and optimization, anomaly detection, session establishment, peer grouping, address families, policies, multihoming, troubleshooting, and real-world examples and case studies. Ensure that no primary BGP topic is left unaddressed.
+2. For each BGP topic, frame multiple instruction sets with varied emphasis on practical, theoretical, and analytical aspects of the subject matter.
+3. Diversity of Content: Each instruction should explore different facets of BGP, such as route optimization, security challenges, policy configuration, etc. 
+4. Ensure a comprehensive understanding, providing insights, practical applications, and real-world relevance. 
+5. Not all instructions require input. In that case, simply put "<noinput>" in the input field.
+6. The output should be an appropriate response to the instruction and the input.
+7. You should generate an appropriate input to the instruction.
 
 
-List of 20 tasks:
+Here is a complete example of the instruction and the output:
