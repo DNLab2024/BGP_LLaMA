@@ -9,7 +9,7 @@ This Jupyter notebook is the primary script used to fine-tune the BGP-LLaMA mode
 
 ### 🛠️ `generate_instruction.py`
 
-The script is originally sourced from Stanford Alpaca [script](https://github.com/tatsu-lab/stanford_alpaca). This script is instrumental in expanding the training dataset, contributing significantly to the diversity of data used to train the model. "self-instruct" [script](https://arxiv.org/abs/2212.10560) crafted to expand the training dataset. It plays a crucial role in ensuring that the model has a diverse set of data for training.
+The script is originally sourced from [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca). This script is instrumental in expanding the training dataset, contributing significantly to the diversity of data used to train the model. ["Self-instruct"](https://arxiv.org/abs/2212.10560) crafted to expand the training dataset. It plays a crucial role in ensuring that the model has a diverse set of data for training.
 
 ### 📝 Prompts
 
@@ -30,7 +30,7 @@ Evaluation sets for both knowledge and code analysis evaluations. These sets are
 | Parameter                 | Value                   |
 |---------------------------|-------------------------|
 | Training steps            | 30,000                  |
-| Learning rate             | \(1 \times 10^{-4}\)    |
+| Learning rate             | 1e-4                    |
 | Global batch size         | 4                       |
 | Warm-up ratio             | 0.05                    |
 | LoRA rank                 | 64                      |
